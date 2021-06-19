@@ -1,18 +1,18 @@
 .screen-container {
+    margin: 0px;
     margin-bottom: 100px;
     background-color: rgb(255, 255, 255);
     overflow:hidden;
 }
 
 .small-titles {
+    font-family: 'Manrope', sans-serif;
     margin: 40px;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-.animation {
-    height: 500px;
+
+.container-animation {
+  justify-content: center;
+  height: 500px;
 }
 
 .huge {
@@ -25,8 +25,8 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     position: absolute;
-    top: 150px;
-    margin-left: 25%;
+    top: 100px;
+    margin-left: 25%
 }
 
 .huge2 {
@@ -39,8 +39,8 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     position: absolute;
-    top: 350px;
-    margin-left: 45%;
+    top: 300px;
+    margin-left: 50%;
 }
 
 .code-icon {

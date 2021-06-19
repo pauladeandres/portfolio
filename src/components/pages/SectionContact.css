@@ -1,0 +1,31 @@
+.contact-container {
+    margin: 100px 50px;
+    align-items: center;
+}
+
+.contact-form {
+   font-family: 'Manrope', sans-serif;
+   font-size: 1.5em;
+}
+
+.more-info h1{
+    font-size: 4em;
+    font-family: 'sentient-Variable';
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.button-submit {
+    padding: 10px;
+    background-color: black;
+    margin: 0px;
+    font-size: 1.5em;
+    border:none;
+}
+
+.button-submit:hover {
+    background-color: rgb(0, 255, 42);
+    border: none;
+    color: black;
+}

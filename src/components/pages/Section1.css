@@ -1,8 +1,61 @@
 .section1 {
-    height: 300px;
-
+   margin-bottom: 100px;
 }
 .cv-list {
     font-size: 2em;
     text-align: center;
+}
+
+.portrait {
+    justify-content: center;
+}
+.move-up {
+    animation-name: move;
+    animation-duration: 4s;
+}
+
+.appear {
+    animation-name: appear;
+    animation-duration: 3s;
+}
+
+.bio-container {
+    align-items: center;
+}
+
+.bio {
+    padding: 10px 150px;
+    font-size: 1.5em;
+}
+
+.bio h1 {
+    margin-bottom: 50px;
+}
+
+.bio p {
+    margin-bottom: 50px;
+}
+
+.portrait img{
+    width: 500px;
+}
+
+@keyframes move {
+  0% {
+    transform:  translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0%
+  }
+
+  100% {
+    opacity:100%
+  }
 }
