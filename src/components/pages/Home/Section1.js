@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './Section1.css'
-import portrait from './../../assets/retrato.jpg'
+import portrait from './../../../assets/retrato.jpg'
 import { useInView, InView } from 'react-intersection-observer'
 
 

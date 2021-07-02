@@ -29,6 +29,9 @@ export default function SectionContact() {
 
         emailjs.sendForm('service_bakhj3y', 'contact_form', e.target, 'user_ILDnMeneQcmER9IQNrkjo')
             .then((result) => {
+                // user_name.value = ' '
+                // user_email.value= ' '
+                // message.value = ' '
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
@@ -43,16 +46,6 @@ export default function SectionContact() {
                     <h1> </h1>
                     <h1>MORE</h1>
                     <h1>INFO</h1>
-                    {/* <form className="contact-form" onSubmit={sendEmail}>
-                        <input type="hidden" name="contact_number" />
-                        <label>Name</label>
-                        <input type="text" name="user_name" />
-                        <label>Email</label>
-                        <input type="email" />
-                        <label>Message</label>
-                        <textarea name="message" />
-                        <input type="submit" value="Send" />
-                    </form> */}
                     </Col>
                     <Col>
                     <Form className="contact-form" onSubmit={sendEmail}>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './Home.css'
-import code from './../../assets/embed.png'
+import Section1 from './Section1'
+import SectionContact from './SectionContact'
+import code from './../../../assets/embed.png'
 
 import { InView } from 'react-intersection-observer';
 // import HorizontalScroll from 'react-scroll-horizontal'
@@ -44,6 +46,9 @@ export default function Home() {
                         style={{ transform: `rotate(${offsetY}deg)` }}/>
                     </Col>
                 </Row>
+
+            <Section1 />
+            <SectionContact />
             
         </div>
        

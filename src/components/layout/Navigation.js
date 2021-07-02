@@ -10,10 +10,10 @@ export default function Navigation() {
         
         <Row className='container-nav'>
             
-                <h3 className='small-titles'>PAULA DE ANDRES</h3>
-                <h3 className='small-titles'>WEB DEVELOPMENT</h3>
-                <h3 className='small-titles'>FASHION</h3>
-                <h3 className='small-titles'>ABOUT</h3>
+                <a className='small-titles' href='/'>PAULA DE ANDRES</a>
+                <a className='small-titles' href='/web-projects'>WEB DEVELOPMENT</a>
+                <a className='small-titles' href='/fashion-projects'>FASHION</a>
+                <a className='small-titles' href='/about'>ABOUT</a>
             
         </Row>
 
