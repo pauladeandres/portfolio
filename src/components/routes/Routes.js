@@ -7,7 +7,7 @@ import About from '../pages/About/About'
 const Routes = () => {
     return (
         <Switch>
-            <Route path="/" exact render={() => <Home/>} />
+            <Route path="https://pauladeandres.github.io/portfolio/" exact render={() => <Home />} />
             <Route path="/about" render={() => <About />} />
             <Route path="/fashion-projects" render={() => <Fashion />} />
             <Route path="/web-projects" render={() => <Web />} />
