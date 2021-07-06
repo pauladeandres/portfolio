@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 ReactDOM.render(
-  <Router basename="https://pauladeandres.github.io/portfolio">
+  <Router>
     <React.StrictMode>
       <App />
     </React.StrictMode>
