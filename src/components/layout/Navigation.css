@@ -1,5 +1,6 @@
 .container-nav {
     justify-content: space-between;
+    width: 100%;
 }
 .small-titles {
     padding: 1px 20px;

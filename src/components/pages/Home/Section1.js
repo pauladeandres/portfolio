@@ -11,9 +11,9 @@ export default function Section1() {
     //pictureDiv.style.transform ='translateY(50px)'
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
-
+    
     const portraitSelector = document.querySelector('.portrait img')
-    console.log(window.pageYOffset)
+    // console.log(window.pageYOffset)
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -30,14 +30,14 @@ export default function Section1() {
             <Row>
                 <Col>
                 <div className='section1'>
-                    <h1 className="cv-list">HTML5 / CSS / JAVASCRIPT / MONGODB / REACT.JS / NODE.JS / SASS / PHOTOSHOP / ILLUSTRATOR / INDESIGN</h1>
+                    <h1 className="cv-list"><span id='text-change'></span></h1>
                 </div>
                 </Col>
             </Row>
             <Row className='bio-container'>
                 <Col className='Parallax portrait' md={4} ref={ref}>
                     <InView onChange={(inView, entry) => toggleClass()}>
-                    <img src={portrait} className={isInView ? 'move-up' : null}/>
+                    <img src={portrait} className={isInView ? 'move-left' : 'first-place'}/>
                     </InView>
                 </Col>
                 <Col className='bio' md={8} >

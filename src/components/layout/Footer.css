@@ -1,0 +1,39 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+    padding: 30px;
+    align-items: center;
+}
+
+.footer-titles {
+    color: white;
+    font-family: 'sentient-Variable';
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.footer-subtitles-pink {
+    font-family: 'sentient-Variable';
+    color: rgb(255, 104, 196);
+}
+
+.footer-subtitles-blue {
+    font-family: 'sentient-Variable';
+    color: rgb(4, 217, 255);
+}
+.footer-subtitles-yellow {
+    font-family: 'sentient-Variable';
+    color: rgb(224,231,34);
+}
+
+.footer-subtitles-green {
+    font-family: 'sentient-Variable';
+    color: rgb(0, 255, 42);
+}
+
+a>h2 {
+  text-decoration: none;
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import StackGrid from "react-stack-grid";
 import './Fashion.css'
+import celine from './../../../assets/celine_prefall17.jpg'
 import { InView } from 'react-intersection-observer';
 
 
@@ -19,13 +20,11 @@ export default function Home() {
 
         <div>
 
-            <Row className='about'>
-                <Col className='bio typewriter'>
-                    <h1>
-                        UNDER CONSTRUCTION
-                    </h1>
-                </Col>
-            </Row>
+            <StackGrid columnWidth={200}>
+                <img src={celine} />
+                <div key="key2">Item 2</div>
+                <div key="key3">Item 3</div>
+            </StackGrid>
 
         </div>
 

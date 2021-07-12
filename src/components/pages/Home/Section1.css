@@ -2,21 +2,39 @@
    margin-bottom: 100px;
 }
 .cv-list {
+    font-family: 'sentient-Variable';
+    font-weight: bolder;
     margin-top: 100px;
     font-size: 2em;
     text-align: center;
+    padding: 30px 0px;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: step-end;
+    transition-duration: 0s, 0s;
+}
+
+#text-change:after{
+  content: ' ';
+  animation: changing-text 2s step-end infinite;
 }
 
 .portrait {
     justify-content: center;
 }
-.move-up {
+.first-place {
+  margin-left: 100px;
+}
+
+.move-left {
     animation-name: move;
+    animation-delay: 0s;
     animation-duration: 4s;
 }
 
 .appear {
-    animation-name: appear;
+    animation-name: fadein;
     animation-duration: 3s;
 }
 
@@ -51,12 +69,54 @@
   }
 }
 
-@keyframes appear {
+@keyframes fadein {
   0% {
     opacity: 0%
   }
 
   100% {
     opacity:100%
+  }
+}
+
+@keyframes color-change {
+  0% {
+    background-color: rgb(231, 255, 93);
+  }
+  20% {
+    background-color: rgb(255, 104, 196);
+  }
+  40% {
+    background-color: rgb(0, 255, 42);;
+  }
+  60% {
+    background-color: rgb(4, 217, 255);
+  }
+  80% {
+    background-color: rgb(255, 104, 196);
+  }
+  100% {
+    background-color: rgb(0, 255, 42);
+  }
+}
+
+@keyframes changing-text {
+  0% {
+    content: 'REACTJS'
+  }
+  20% {
+    content: 'MONGODB'
+  }
+  40% {
+    content: 'NODEJS'
+  }
+  60% {
+    content: 'HTML'
+  }
+  80% {
+    content: 'NODEJS'
+  }
+  100% {
+    content: 'CSS'
   }
 }

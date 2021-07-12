@@ -19,8 +19,8 @@ export default function Home() {
 
         <div>
 
-            <Row className='about'>
-                <Col className='bio typewriter'>
+            <Row className='web-projects'>
+                <Col className='web typewriter'>
                     <h1>
                         UNDER CONSTRUCTION
                     </h1>
