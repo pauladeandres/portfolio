@@ -15,7 +15,7 @@ export default function Navigation() {
                 <Link to="/" className='nav-links'>PAULA DE ANDRES</Link>
             </Col>
             <Col className='navigation'>
-                <Link to="/web-projects" className='nav-links'>WEB DEVELOPMENT</Link>
+                <a href="https://github.com/pauladeandres" className='nav-links'>WEB DEVELOPMENT</a>
             </Col >
             <Col className='navigation'>
                 <a href="https://www.pauladeandres.com/" target='_blank' className='nav-links'>FASHION</a>
