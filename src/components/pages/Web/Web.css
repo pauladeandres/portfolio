@@ -1,5 +1,6 @@
 .web-projects {
-    margin-top: 200px;
+    padding: 250px 0px;
+    min-height: 100vh;
 }
 
 .web h1{

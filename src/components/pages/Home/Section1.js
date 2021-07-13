@@ -27,13 +27,6 @@ export default function Section1() {
 
     return (
         <div>
-            <Row>
-                <Col>
-                <div className='section1'>
-                    <h1 className="cv-list"><span id='text-change'></span></h1>
-                </div>
-                </Col>
-            </Row>
             <Row className='bio-container'>
                 <Col className='Parallax portrait' md={4} ref={ref}>
                     <InView onChange={(inView, entry) => toggleClass()}>

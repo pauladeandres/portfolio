@@ -8,7 +8,7 @@ import './Footer.css'
 export default function Footer() {
 
     return (
-
+        <footer>
         <Row className='footer'>
 
             <Col md={6}>
@@ -27,6 +27,6 @@ export default function Footer() {
             </Col>
 
         </Row>
-
+        </footer>
     );
 }
